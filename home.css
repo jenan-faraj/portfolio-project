@@ -127,7 +127,7 @@ main{
   background-color: var(--headerColor);
   display: flex;
   align-items: center;
-  justify-content: space-around;
+  justify-content: space-between;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 .hero-section-text{
@@ -145,6 +145,10 @@ main{
 }
 .section-container img{
   max-width: 500px;
+  border-radius: 4px;
+  display: flex;
+  flex-shrink: 1;
+  /* flex-wrap: wrap; */
 }
 .section-container a{
   text-decoration: none;
