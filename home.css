@@ -190,7 +190,9 @@ main{
 /* Cards */
 .cards-container {
   display: flex;
+  flex-direction: column;
   justify-content: center;
+  align-items: center;
   gap: 20px; 
 }
 
@@ -209,14 +211,18 @@ main{
 .card:hover {
   transform: translateY(-5px); 
 }
-
+.projects-cards{
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+}
 .card-image1 {
   border-radius: 8px 0px 0px 8px;
   width: 50%; 
   height: 100%;
   background-size: cover;
   background-position: center;
-  background-image: url(images/Home/Screenshot\ 2024-12-20\ 164540.png);
+  background-image: url(images/projects/Screenshot\ 2024-12-22\ 093156.png);
 }
 .card-image2 {
   border-radius: 8px 0px 0px 8px;
@@ -224,7 +230,7 @@ main{
   height: 100%;
   background-size: cover;
   background-position: center;
-  background-image: url(images/Home/Screenshot\ 2024-12-20\ 164608.png);
+  background-image: url(images/projects/Screenshot\ 2024-12-22\ 122330.png);
 }
 .card-image3 {
   border-radius: 8px 0px 0px 8px;
@@ -232,7 +238,7 @@ main{
   height: 100%;
   background-size: cover;
   background-position: center;
-  background-image: url(images/Home/Screenshot\ 2024-12-20\ 164629.png);
+  background-image: url(images/projects/Screenshot\ 2024-12-22\ 123208.png);
 }
 
 .card-text {
