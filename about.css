@@ -108,6 +108,7 @@ body {
 }
 
 /* About me */
+
 .aboutMe-Container {
   display: flex;
   justify-content: center;
@@ -138,6 +139,7 @@ body {
   color: var(--fontColor);
   list-style: none;
 }
+
 @media (max-width: 668px) {
   .text-container {
     font-size: 1rem;
@@ -145,6 +147,12 @@ body {
   .aboutMe-Container img {
     width: 30%;
     height: 60%;
+  }
+  section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
 }
 @media (max-width: 450px) {
