@@ -132,8 +132,8 @@ body {
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
   transition: transform 0.3s ease;
 }
-.card:hover{
-  transform: translateY(-5px); 
+.card:hover {
+  transform: translateY(-5px);
 }
 .img1 {
   background-image: url(images/projects/Screenshot\ 2024-12-22\ 091543.png);

@@ -108,6 +108,7 @@ body{
 }
 
 
+
 /* section */
 main{
   display: flex;
@@ -184,6 +185,8 @@ main{
   }
 }
 
+
+
 /* Cards */
 .cards-container {
   display: flex;
@@ -253,6 +256,8 @@ main{
     align-items: center;
   }
 }
+
+
 
 /* footer */
 Footer{
