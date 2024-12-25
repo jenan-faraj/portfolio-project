@@ -114,15 +114,16 @@ body{
 main{
   width: 100%;
   height: 100%;
+  margin: 50px 0px;
 }
 .hero{
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 10px;
+  margin: 30px;
+  
 }
 .hero .section-container{
-  
   border-radius: 4px;
   background-color: var(--headerColor);
   display: flex;
@@ -181,6 +182,9 @@ main{
   .hero-section-text h2{
     font-size: 30px;
   }
+  .hero{
+    margin: 20px;
+  }
 }
 @media (max-width: 360px){
 
@@ -191,7 +195,7 @@ main{
     margin: 10px;
   }
   .hero{
-    margin: 5px;
+    margin:20px 5px;
   }
 }
 
@@ -200,10 +204,10 @@ main{
 .cards-container {
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
   gap: 20px; 
-  margin: 40px;
+  margin: 50px;
 }
 
 .card {
@@ -228,7 +232,7 @@ justify-content: center;
 }
 .card-image1 {
   border-radius: 8px 0px 0px 8px;
-  width: 50%; 
+  width: 60%; 
   height: 100%;
   background-size: cover;
   background-position: center;
@@ -236,7 +240,7 @@ justify-content: center;
 }
 .card-image2 {
   border-radius: 8px 0px 0px 8px;
-  width: 50%;
+  width: 60%;
   height: 100%;
   background-size: cover;
   background-position: center;
@@ -244,7 +248,7 @@ justify-content: center;
 }
 .card-image3 {
   border-radius: 8px 0px 0px 8px;
-  width: 50%; 
+  width: 60%; 
   height: 100%;
   background-size: cover;
   background-position: center;
@@ -254,7 +258,7 @@ justify-content: center;
 .card-text {
   width: 60%; 
   padding: 20px;
-  font-size: 20px;
+  font-size: 25px;
   font-weight: bold;
   text-align: center;
 }
