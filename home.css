@@ -121,6 +121,7 @@ main{
   max-width: 200rem;
   padding: 20px;
   height: 500px;
+  margin: 40px;
 }
 .hero .section-container{
   width: 80rem;
@@ -210,6 +211,9 @@ main{
   .section-container {
     margin: 10px;
   }
+  .hero{
+    margin: 5px;
+  }
 }
 
 
@@ -220,6 +224,7 @@ main{
   justify-content: center;
   align-items: center;
   gap: 20px; 
+  margin: 40px;
 }
 
 .card {
@@ -307,6 +312,7 @@ Footer{
   width: 60%;
   display: flex;
   justify-content: space-between;
+  flex-direction: column;
   align-items: center;
 }
 footer .logo-img{
