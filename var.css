@@ -1,6 +1,13 @@
-:root {
+/* :root {
     --mainColor:#FFF2F2;
     --headerColor:#e5e0ff;
     --fontColor:#3b1c32;
     --footerColor:#7286d3;
+  } */
+
+  :root {
+    --mainColor:#EEEEEE;
+    --headerColor:#D4BEE4;
+    --fontColor:#3B1E54;
+    --footerColor:#9B7EBD;
   }

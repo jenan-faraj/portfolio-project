@@ -1,6 +1,7 @@
 * {
     margin: 0px;
     padding: 0px;
+    color: var(--fontColor);
   }
   body{
     background-color: var(--mainColor);
@@ -197,6 +198,7 @@ Footer{
   justify-content: space-between;
   flex-direction: column;
   align-items: center;
+  padding: 20px;
 }
 footer .logo-img{
   width: 200px;

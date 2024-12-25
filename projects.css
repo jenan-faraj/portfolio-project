@@ -1,6 +1,7 @@
 * {
   margin: 0px;
   padding: 0px;
+  color: var(--fontColor);
 }
 body {
   background-color: var(--mainColor);
@@ -207,6 +208,7 @@ body {
 
 .text-placeholder p {
   margin: 5px 0;
+  color: var(--fontColor);
 }
 
 .buttons {
@@ -233,7 +235,7 @@ body {
 
 /* footer */
 Footer {
-  margin-top: 100px;
+  margin-top: 50px;
   background-color: var(--footerColor);
   display: flex;
   flex-direction: column;
@@ -247,11 +249,11 @@ Footer {
   width: 60%;
   display: flex;
   justify-content: space-between;
+  flex-direction: column;
   align-items: center;
+  padding: 20px;
 }
-footer .logo-img {
-  width: 200px;
-}
+
 
 .links-container {
   display: flex;
